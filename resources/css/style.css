@@ -1,0 +1,59 @@
+body {
+   align-content: center;
+   background-color: white;
+
+}
+header {
+    display: inline-flex;
+    height: 64px;
+    
+}
+
+header img {
+    
+    padding-left: 16px;
+       
+
+}
+
+header h1 {
+    display: inline-flex;
+    font-size: 32px;
+    color: gray
+    
+    
+}
+
+header ul {
+
+    position: absolute;
+    top: 15px;
+    right: 150px;
+    margin-right: 24px;
+}
+
+header li {
+    display: inline-flex;
+    margin-right: 16px;
+    justify-content: space-evenly;
+    
+}
+
+.learn {
+    background-image: url("resources\images\banner.jpg");
+    background-image: cover;
+    background-color:gray;
+    height: 600px;
+    opacity: 1;
+    
+}
+
+.practice img {
+    margin: 32px 24px 24px 32px;
+    width: 60%;
+}
+
+.practice h3 {
+    margin-top: 32px;
+    
+}
