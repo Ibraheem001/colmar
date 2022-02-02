@@ -42,13 +42,24 @@ header li {
 .learn {
     background-image: url("resources\images\banner.jpg");
     background-image: cover;
-    background-color:gray;
+    background-color: lightgray;
     height: 600px;
     opacity: 1;
     
 }
 
+.container {
+       max-width: 900px;
+       display: flex;
+       
+
+}
+
+.practice {
+    flex: 1;
+}
 .practice img {
+    
     margin: 32px 24px 24px 32px;
     width: 60%;
 }
@@ -56,4 +67,33 @@ header li {
 .practice h3 {
     margin-top: 32px;
     
+}
+
+.practice p {
+
+    margin-top: 24px;
+}
+
+.columns {
+
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+}
+
+.first {
+   
+   
+   flex: 1;
+}
+
+.second {
+    
+  
+    flex: 1;
+}
+
+.third {
+    background-color: lightgray;
+    flex: 1;
 }
